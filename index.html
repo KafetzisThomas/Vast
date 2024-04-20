@@ -16,7 +16,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-white fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#">Vast</a>
+                <h1><a class="navbar-brand" href="#">Vast</a></h1>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -164,6 +164,31 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <!-- Add jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Add underline effect on hover
+            $('.nav-link').hover(function () {
+                $(this).addClass('text-decoration-underline');
+            }, function () {
+                // Remove underline effect on mouseout only if it's not active
+                if (!$(this).hasClass('active')) {
+                    $(this).removeClass('text-decoration-underline');
+                }
+            });
+
+            // Add underline effect on click
+            $('.nav-link').click(function () {
+                // Remove underline effect from other links and add to the clicked one
+                $('.nav-link').removeClass('active text-decoration-underline');
+                $(this).addClass('active text-decoration-underline');
+            });
+        });
+    </script>
+
 </body>
 
 </html>
