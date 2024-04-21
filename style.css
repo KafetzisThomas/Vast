@@ -78,3 +78,18 @@
 .hero-section h2 {
     font-size: 0.7em;
 }
+
+/* Text Animation: fade-in */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
