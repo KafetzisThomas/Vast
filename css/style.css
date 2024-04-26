@@ -1,3 +1,4 @@
+/* Spinner wrapper styles */
 .spinner-wrapper {
     background-color: #000;
     position: fixed;
@@ -12,11 +13,13 @@
     transition: all 0.2s;
 }
 
+/* Spinner styles */
 .spinner-border {
     height: 60px;
     width: 60px;
 }
 
+/* Navbar brand styles */
 .navbar-brand {
     font-weight: 500;
     color: #5f8db0;
@@ -24,28 +27,33 @@
     transition: 0.3s color;
 }
 
+/* Navbar toggler button styles */
 .navbar-toggler {
     border: none;
     font-size: 1.25rem;
 }
 
+/* Focus styles for navbar toggler and close button */
 .navbar-toggler:focus,
 .btn-close:focus {
     box-shadow: none;
     outline: none;
 }
 
+/* Navigation link styles */
 .nav-link {
     color: #666777;
     font-weight: 500;
     position: relative;
 }
 
+/* Hover and active state styles for navigation links */
 .nav-link:hover,
 .nav-link:active {
     color: #000;
 }
 
+/* Styles for pseudo-element before navigation links */
 @media (min-width: 991px) {
     .nav-link::before {
         content: "";
@@ -60,6 +68,7 @@
         transition: 0.3s ease-in-out;
     }
 
+    /* Hover and active state styles for pseudo-element before navigation links */
     .nav-link:hover::before,
     .nav-link.active::before {
         width: 100%;
@@ -67,6 +76,7 @@
     }
 }
 
+/* Hero section styles */
 .hero-section {
     background: url(../assets/hero.jpg) no-repeat center;
     background-size: cover;
@@ -74,6 +84,7 @@
     height: 100vh;
 }
 
+/* Overlay styles for hero section */
 .hero-section::before {
     background-color: rgba(0, 0, 0, 0.6);
     content: "";
@@ -84,31 +95,37 @@
     left: 0;
 }
 
+/* Container styles within hero section */
 .hero-section .container {
     height: 100vh;
     z-index: 1;
     position: relative;
 }
 
+/* Heading styles within hero section */
 .hero-section h1 {
     font-size: 1.5em;
 }
 
+/* Subheading styles within hero section */
 .hero-section h2 {
     font-size: 0.7em;
 }
 
-/* Text Animation: fade-in */
+/* Keyframes for fade-in animation */
 @keyframes fadeIn {
     0% {
+        /* Initial opacity */
         opacity: 0;
     }
 
     100% {
+        /* Final opacity */
         opacity: 1;
     }
 }
 
+/* Fade-in animation styles */
 .fade-in {
     animation: fadeIn 2s ease-in-out;
 }
