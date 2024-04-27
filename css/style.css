@@ -112,6 +112,15 @@
     font-size: 0.7em;
 }
 
+/* Position for scroll-to-top button */
+.fixed-bottom-right {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* Initially hide the button */
+    display: none;
+}
+
 /* Keyframes for fade-in animation */
 @keyframes fadeIn {
     0% {
