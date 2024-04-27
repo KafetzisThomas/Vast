@@ -119,6 +119,14 @@
     right: 20px;
     /* Initially hide the button */
     display: none;
+    transition: opacity 0.3s ease;
+    /* Ensure it appears above other elements */
+    z-index: 999;
+}
+
+.fixed-bottom-right.show {
+    display: block;
+    opacity: 1;
 }
 
 /* Keyframes for fade-in animation */
