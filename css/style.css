@@ -181,9 +181,3 @@
 .animated-number {
     animation: count-up 1.5s ease-out forwards;
 }
-
-/* Styles for form controls when focused */
-.form-control:focus {
-    border-color: #212529;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(33, 37, 41, 1);
-}
