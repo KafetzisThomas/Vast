@@ -112,6 +112,23 @@
     font-size: 0.7em;
 }
 
+/* Center the "down" button & "Learn More" text horizontally*/
+/* Position button & text at the bottom */
+.hero-section .btn-scroll-down,
+.hero-section .learn-more {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Style the "Learn More" text */
+.hero-section .learn-more {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
 /* Position for scroll-to-top button */
 .fixed-bottom-right {
     position: fixed;
