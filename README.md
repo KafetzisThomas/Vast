@@ -4,7 +4,7 @@
 
 **Vast** is a clean, minimal, and fully responsive web template specifically designed for developers to showcase their skills and projects effectively. It provides a strong foundation for building a professional and personalized online presence.
 
-Built with `HTML5`, `CSS3`, and `Javascript`.
+Built with `HTML5`, `Bootstrap 5`, `CSS3`, and `Javascript`.
 
 ## Features
 
