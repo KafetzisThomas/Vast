@@ -1,24 +1,3 @@
-/* Spinner wrapper styles */
-.spinner-wrapper {
-    background-color: #000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.2s;
-}
-
-/* Spinner styles */
-.spinner-border {
-    height: 60px;
-    width: 60px;
-}
-
 /* Navbar brand styles */
 .navbar-brand {
     font-weight: 500;
