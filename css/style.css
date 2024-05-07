@@ -83,11 +83,13 @@
 
 /* Heading styles within hero section */
 .hero-section h1 {
+    /* Font size for larger screens */
     font-size: 1.5em;
 }
 
 /* Subheading styles within hero section */
 .hero-section h2 {
+    /* Font size for larger screens */
     font-size: 0.7em;
 }
 
@@ -104,8 +106,53 @@
 /* Style the "Learn More" text */
 .hero-section .learn-more {
     color: #fff;
-    font-size: 16px;
+    /* Font size for larger screens */
+    font-size: 0.4em;
     margin-bottom: 60px;
+}
+
+/* Media query for smaller devices */
+@media (max-width: 575.98px) {
+
+    /* Adjust font sizes for smaller devices */
+    .hero-section h1 {
+        font-size: 1.4em;
+    }
+
+    .hero-section h2 {
+        font-size: 0.7em;
+    }
+
+    .hero-section .learn-more {
+        font-size: 0.5em;
+    }
+
+    /* Adjust button sizes for smaller devices */
+    .hero-section .btn {
+        padding: 4px 8px;
+    }
+}
+
+/* Media query for even smaller devices */
+@media (max-width: 360px) {
+
+    /* Adjust font sizes for even smaller devices */
+    .hero-section h1 {
+        font-size: 1.3em;
+    }
+
+    .hero-section h2 {
+        font-size: 0.65em;
+    }
+
+    .hero-section .learn-more {
+        font-size: 0.5em;
+    }
+
+    /* Adjust button sizes for even smaller devices */
+    .hero-section .btn {
+        padding: 1px 3px;
+    }
 }
 
 /* Position for scroll-to-top button */
