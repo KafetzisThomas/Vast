@@ -42,26 +42,24 @@ body {
 }
 
 /* Styles for pseudo-element before navigation links */
-@media (min-width: 991px) {
-    .nav-link::before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translate(-50%);
-        width: 0;
-        height: 2px;
-        background-color: #082841;
-        visibility: hidden;
-        transition: 0.3s ease-in-out;
-    }
+.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #082841;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
 
-    /* Hover and active state styles for pseudo-element before navigation links */
-    .nav-link:hover::before,
-    .nav-link.active::before {
-        width: 100%;
-        visibility: visible;
-    }
+/* Hover and active state styles for pseudo-element before navigation links */
+.nav-link:hover::before,
+.nav-link.active::before {
+    width: 100%;
+    visibility: visible;
 }
 
 /* Hero section styles */
@@ -123,50 +121,6 @@ body {
     margin-bottom: 60px;
 }
 
-/* Media query for smaller devices */
-@media (max-width: 575.98px) {
-
-    /* Adjust font sizes for smaller devices */
-    .hero-section h1 {
-        font-size: 1.4em;
-    }
-
-    .hero-section h2 {
-        font-size: 0.7em;
-    }
-
-    .hero-section .learn-more {
-        font-size: 0.5em;
-    }
-
-    /* Adjust button sizes for smaller devices */
-    .hero-section .btn {
-        padding: 4px 8px;
-    }
-}
-
-/* Media query for even smaller devices */
-@media (max-width: 360px) {
-
-    /* Adjust font sizes for even smaller devices */
-    .hero-section h1 {
-        font-size: 1.3em;
-    }
-
-    .hero-section h2 {
-        font-size: 0.65em;
-    }
-
-    .hero-section .learn-more {
-        font-size: 0.5em;
-    }
-
-    /* Adjust button sizes for even smaller devices */
-    .hero-section .btn {
-        padding: 1px 3px;
-    }
-}
-
 /* Position for scroll-to-top button */
 .fixed-bottom-right {
     position: fixed;
@@ -187,12 +141,10 @@ body {
 /* Keyframes for fade-in animation */
 @keyframes fadeIn {
     0% {
-        /* Initial opacity */
         opacity: 0;
     }
 
     100% {
-        /* Final opacity */
         opacity: 1;
     }
 }
@@ -226,8 +178,27 @@ body {
     box-shadow: inset 0 1px 1px rgba(13, 110, 253, 1), 0 0 8px rgba(13, 110, 253, 1);
 }
 
+
 /* Media query for smaller screens */
 @media (max-width: 575.98px) {
+
+    /* Adjust font sizes for smaller screens */
+    .hero-section h1 {
+        font-size: 1.4em;
+    }
+
+    .hero-section h2 {
+        font-size: 0.7em;
+    }
+
+    .hero-section .learn-more {
+        font-size: 0.5em;
+    }
+
+    /* Adjust button sizes for smaller screens */
+    .hero-section .btn {
+        padding: 4px 8px;
+    }
 
     /* Center-align the social media icons */
     .footer-social {
@@ -252,6 +223,24 @@ body {
 
 /* Media query for even smaller screens */
 @media (max-width: 360px) {
+
+    /* Adjust font sizes for even smaller screens */
+    .hero-section h1 {
+        font-size: 1.3em;
+    }
+
+    .hero-section h2 {
+        font-size: 0.65em;
+    }
+
+    .hero-section .learn-more {
+        font-size: 0.5em;
+    }
+
+    /* Adjust button sizes for even smaller screens */
+    .hero-section .btn {
+        padding: 1px 3px;
+    }
 
     /* Center-align the social media icons */
     .footer-social {
