@@ -17,21 +17,22 @@ Built with `HTML5`, `Bootstrap 5`, `CSS3`, and `Javascript`.
 * Active Navbar Links on Scroll
 * Smooth scrolling
 * Scroll-to-Top Function
-* Preloader Spinner
+* Google font: Roboto
 
 ## Getting Started
 
 Clone the repository:
 
 ```Bash
-git clone https://github.com/KafetzisThomas/Vast.git
+git clone https://github.com/KTS-Themes/Vast.git
 ```
 
-Alternatively, you can download the latest version of the template as a ZIP file by clicking [here](https://github.com/KafetzisThomas/Vast/archive/refs/heads/main.zip).
+Alternatively, you can download the latest version of the template as a ZIP file by clicking [here](https://github.com/KTS-Themes/Vast/archive/refs/heads/main.zip).
 
 ## Credits
 
-* Hero image – [unsplash.com](https://unsplash.com/).
+* Favicon - [favicon.io](https://favicon.io/)
+* Hero image - [unsplash.com](https://unsplash.com/)
 * Tech symbol icons - [remixicon.com](https://remixicon.com/)
 
 ## Attribution Notice
