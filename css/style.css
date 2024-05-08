@@ -198,6 +198,7 @@ body {
     /* Adjust button sizes for smaller screens */
     .hero-section .btn {
         padding: 4px 8px;
+        font-size: 5vw;
     }
 
     /* Center-align the social media icons */
@@ -240,6 +241,7 @@ body {
     /* Adjust button sizes for even smaller screens */
     .hero-section .btn {
         padding: 1px 3px;
+        font-size: 5vw;
     }
 
     /* Center-align the social media icons */
@@ -254,7 +256,7 @@ body {
 
     /* Adjust size of social media icons for even smaller screens */
     .footer-social .btn i {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     /* Center-align the copyright notice */
