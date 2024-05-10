@@ -15,6 +15,10 @@ body {
     transition: 0.3s color;
 }
 
+.navbar-brand:hover {
+    color: #ffffff;
+}
+
 /* Navbar toggler button styles */
 .navbar-toggler {
     border: none;
@@ -30,7 +34,7 @@ body {
 
 /* Navigation link styles */
 .nav-link {
-    color: #666777;
+    color: #fff;
     font-weight: 500;
     position: relative;
 }
@@ -38,7 +42,16 @@ body {
 /* Hover and active state styles for navigation links */
 .nav-link:hover,
 .nav-link:active {
-    color: #000;
+    color: #fff !important;
+}
+
+.nav-link.active {
+    color: #fff !important;
+}
+
+/* Reset text color for non-active navlinks */
+.nav-link:not(.active) {
+    color: #fff !important;
 }
 
 /* Styles for pseudo-element before navigation links */
@@ -50,7 +63,7 @@ body {
     transform: translate(-50%);
     width: 0;
     height: 2px;
-    background-color: #082841;
+    background-color: #fff;
     visibility: hidden;
     transition: 0.3s ease-in-out;
 }
