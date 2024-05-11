@@ -11,7 +11,7 @@ document.querySelectorAll('.scroll-btn').forEach(btn => {
         const targetSection = document.getElementById(targetId);
 
         // Define the height of the navbar (adjust if necessary)
-        const navbarHeight = 30;
+        const navbarHeight = 65;
 
         // Calculate the offset from the top to scroll to, considering navbar height
         const offsetTop = targetSection.offsetTop - navbarHeight;
