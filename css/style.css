@@ -195,7 +195,6 @@ body {
 /* Media query for smaller screens */
 @media (max-width: 575.98px) {
 
-    /* Adjust font sizes for smaller screens */
     .hero-section h1 {
         font-size: 1.4em;
     }
@@ -208,28 +207,27 @@ body {
         font-size: 0.5em;
     }
 
-    /* Adjust button sizes for smaller screens */
     .hero-section .btn {
         padding: 4px 8px;
         font-size: 5vw;
     }
 
-    /* Center-align the social media icons */
+    .projects_section a {
+        font-size: 0.8em;
+    }
+
     .footer-social {
         text-align: center;
     }
 
-    /* Add margin to the social media icons */
     .footer-social .btn {
         margin: 5px;
     }
 
-    /* Adjust size of social media icons for smaller screens */
     .footer-social .btn i {
         font-size: 0.9rem;
     }
 
-    /* Center-align the copyright notice */
     .footer-copyright {
         text-align: center;
     }
@@ -238,7 +236,6 @@ body {
 /* Media query for even smaller screens */
 @media (max-width: 360px) {
 
-    /* Adjust font sizes for even smaller screens */
     .hero-section h1 {
         font-size: 1.3em;
     }
@@ -251,28 +248,27 @@ body {
         font-size: 0.5em;
     }
 
-    /* Adjust button sizes for even smaller screens */
     .hero-section .btn {
         padding: 1px 3px;
         font-size: 5vw;
     }
 
-    /* Center-align the social media icons */
+    .projects_section a {
+        font-size: 0.6em;
+    }
+
     .footer-social {
         text-align: center;
     }
 
-    /* Add margin to the social media icons */
     .footer-social .btn {
         margin: 5px;
     }
 
-    /* Adjust size of social media icons for even smaller screens */
     .footer-social .btn i {
         font-size: 0.7rem;
     }
 
-    /* Center-align the copyright notice */
     .footer-copyright {
         text-align: center;
     }
